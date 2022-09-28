@@ -15,6 +15,6 @@
  git show 459f371b1ae96c28a991bcf166b72d0eedcaf50c // git show commit code : show what happen in this commit
  git diff 		//shows the diffrence between what have been commited in working directory and waht have been changed (+,-)
  git restore <filename.extention> //for example if I add a text inside the filename.extention after that write this cmd I will be return to state before the text has added
-
+ git commit --amend -m "newCommitMessage" // change(override) on the last commit message content // we use if the commit message was not have a good descrption about has been commited
 
  
