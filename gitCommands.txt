@@ -1,0 +1,16 @@
+- Global configuration
+    - git config --global user.name
+    - git config --global user.email
+    - git config --global color.ui auto
+- Comman git commands
+    
+ git init		inisialize a repo locally
+    
+ rm -rf .git		Delete a repo”you can’t working on the git repo”
+ git add .		Stage working directory files (make them trackted files)
+ git add -A		Stage all the files inside the working branch
+ git rm -r --cached .   Unstage working directory files(make the untrakted again)
+ git commit -m "bootstrap project"
+
+
+ 
