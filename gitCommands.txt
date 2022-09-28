@@ -4,13 +4,16 @@
     - git config --global color.ui auto
 - Comman git commands
     
- git init		inisialize a repo locally
+ git init		//inisialize a repo locally
     
- rm -rf .git		Delete a repo”you can’t working on the git repo”
- git add .		Stage working directory files (make them trackted files)
- git add -A		Stage all the files inside the working branch
- git rm -r --cached .   Unstage working directory files(make the untrakted again)
+ rm -rf .git		//Delete a repo”you can’t working on the git repo”
+ git add .		//Stage working directory files (make them trackted files)
+ git add -A		//Stage all the files inside the working branch
+ git rm -r --cached .   //Unstage working directory files(make the untrakted again)
  git commit -m "bootstrap project"
+ git log
+ git show 459f371b1ae96c28a991bcf166b72d0eedcaf50c // git show commit code : show what happen in this commit
+ git diff 		//shows the diffrence between what have been commited in working directory and waht have been changed (+,-)
 
 
  
